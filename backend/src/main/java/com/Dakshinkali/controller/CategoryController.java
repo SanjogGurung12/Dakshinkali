@@ -17,8 +17,8 @@ public class CategoryController {
     private CategoryRepo repo;
 
     @PostMapping("category")
-    public Category createCategory(@RequestBody Category category){
-        return repo.save(category);
+    public Category createCategory(@RequestBody Product product){
+        return repo.save(product);
     }
 
     @GetMapping("categories")
