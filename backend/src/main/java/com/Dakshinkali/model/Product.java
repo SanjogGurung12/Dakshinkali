@@ -13,7 +13,8 @@ public class Product {
     private Long id;
 
     private String name;
-    private Double rate;
+    private Double rate1;
+    private Doublde rat2;
     private String image_url;
 
     @ManyToOne
